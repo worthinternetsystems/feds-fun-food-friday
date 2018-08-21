@@ -1,28 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 .App {
   text-align: center;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+  height: 350px;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 2em;
+  font-family: 'Playfair Display', serif;
+}
+.App-subtitle {
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .App-intro {
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.join-button {
+  padding:15px;
+  font-size:0.75em;
+  color:white;
+  background-color:#FF0000;
+  border-color:transparent;
 }
