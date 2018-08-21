@@ -6,6 +6,7 @@ import Home from './Screens/HomeScreen';
 import RoleScreen from './Screens/RoleScreen'
 import TakeOrdersScreen from './Screens/TakeOrdersScreen'
 import PlaceOrderScreen from './Screens/PlaceOrderScreen'
+import RestaurantsList from './Screens/RestaurantsList'
 
 let Dash = () => <div>Dash</div>;
 let TakeOrders = () => <div>Take orders</div>;
@@ -22,6 +23,7 @@ class App extends Component {
           <Dash path="dashboard" />
           <TakeOrdersScreen path="/takeorders" />
           <PlaceOrderScreen path="/placeorder" />
+          <RestaurantsList path="/restaurants-list"/>
         </Router>
       </div>
     );
