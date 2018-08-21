@@ -30,3 +30,8 @@
   background-color:#FF0000;
   border-color:transparent;
 }
+
+.ui-button{
+  padding:15px;
+  font-size:0.75em;
+}
