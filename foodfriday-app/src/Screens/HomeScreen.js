@@ -8,8 +8,8 @@ let Home = () =><div>
     <h1 className="App-title">Food Fun Friday App</h1>
     <p className="App-subtitle">What are we having for lunch?</p>
 
-    <Link to="dashboard">
-        <button className="join-button"> Join Food Fun Friday! </button>
+    <Link to="role">
+        <button className="button"> Join Food Fun Friday! </button>
     </Link>
 
 

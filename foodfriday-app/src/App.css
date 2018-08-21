@@ -23,10 +23,14 @@
   font-size: large;
 }
 
-.join-button {
+.button {
   padding:15px;
   font-size:0.75em;
   color:white;
   background-color:#FF0000;
   border-color:transparent;
+}
+
+.role__option{
+  margin:10px 0;
 }
