@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
-import logo from './ffflogo.svg';
+import { Router, Link } from '@reach/router';
+import logo from './logo.svg';
 import './App.css';
+import Home from './Screens/HomeScreen';
+
+let Dash = () => <div>Dash</div>;
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-        </header>
-
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Food Fun Friday App</h1>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Router>
+          <Home path="/" />
+          <Dash path="dashboard" />
+        </Router>
       </div>
     );
   }

@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900i');
+
 .App {
   text-align: center;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 250px;
+  height: 350px;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 2em;
+  font-family: 'Playfair Display', serif;
 }
 
 .App-intro {
