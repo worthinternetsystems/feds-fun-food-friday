@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:900i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 .App {
   text-align: center;
@@ -13,7 +14,19 @@
   font-size: 2em;
   font-family: 'Playfair Display', serif;
 }
+.App-subtitle {
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+}
 
 .App-intro {
   font-size: large;
+}
+
+.join-button {
+  height:50px;
+  font-size:0.75em;
+  color:white;
+  background-color:#FF0000;
+  border-color:transparent;
 }
